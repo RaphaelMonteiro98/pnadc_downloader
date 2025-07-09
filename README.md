@@ -26,13 +26,15 @@ xlrd==2.0.1
 ## 📁 Estrutura do Repositório
 
 ```
-pnadc-downloader/
-├── download_pnadc.py      # Script principal
-├── requirements.txt       # Dependências
-├── README.md              # Este arquivo
-└── PNADC<ano>/            # Pasta criada na execução
-    ├── Dados/             # microdados extraídos + CSV final
-    └── Documentacao/      # input, dicionário e deflator
+pnadc_downloader/
+├── .gitignore                         # Ignora pastas de dados gerados
+├── download_pnadc.py                  # Script principal
+├── requirements.txt                   # Dependências Python
+├── README.md                          # Instruções de uso
+└── PNADC_<ano>_visita<visita>_def_<deflator>/  
+    ├── Dados/                         # Microdados extraídos + CSV final
+    └── Documentacao/                  # input (.txt), dicionário (.xls) e deflator (.xls)
+
 ```
 
 ---
