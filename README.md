@@ -27,11 +27,10 @@ xlrd==2.0.1
 
 ```
 pnadc_downloader/
-├── .gitignore                         # Ignora pastas de dados gerados
 ├── download_pnadc.py                  # Script principal
 ├── requirements.txt                   # Dependências Python
 ├── README.md                          # Instruções de uso
-└── PNADC_<ano>_visita<visita>_def_<deflator>/  
+└── PNADC_<ano>_visita<visita>_def_<deflator>/  # Após uso
     ├── Dados/                         # Microdados extraídos + CSV final
     └── Documentacao/                  # input (.txt), dicionário (.xls) e deflator (.xls)
 
